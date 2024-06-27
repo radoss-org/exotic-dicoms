@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "exotic_dicoms"
+version = "0.1.0"
+description = ""
+authors = ["Sharpz7 <adam.mcarthur62@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+radstract = { git = "https://github.com/radoss-org/radstract.git" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
